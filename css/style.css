@@ -1,0 +1,58 @@
+
+/*div{display: block}*/
+
+#container{
+	width:940px;
+	height:auto;
+	margin-right: auto;
+	margin-left:auto;
+	border:thick blue dashed;
+}
+
+.header{
+	width:auto;
+	height: auto;
+	border: thick dashed black; 
+}
+
+#menu{
+	width: 20%;
+	height: 100%;
+	float:left;
+	border:thick dashed red;
+}
+
+
+
+.menuButton{
+
+}
+
+#mainContentBox{
+	float:left;
+	width:100%;
+	height:auto;
+	border:thick dashed green;
+
+}
+
+.clearfix:after {
+display: block;
+height: 0;
+content: '.';
+visibility: hidden;
+clear: both;
+}
+
+#profilePic{
+width:30%;
+height: auto;
+border:thick dashed blue;
+
+}
+
+#title{
+	border:thick dashed green;
+	float:left;
+	width:45%;
+}
