@@ -1,58 +1,18 @@
-
-/*div{display: block}*/
-
-#container{
-	width:940px;
-	height:auto;
-	margin-right: auto;
-	margin-left:auto;
-	border:thick blue dashed;
-}
-
-.header{
-	width:auto;
-	height: auto;
-	border: thick dashed black; 
-}
-
-#menu{
-	width: 20%;
-	height: 100%;
-	float:left;
-	border:thick dashed red;
-}
-
-
-
-.menuButton{
+#body{
+	background-color: #fff8e8
 
 }
-
-#mainContentBox{
-	float:left;
-	width:100%;
-	height:auto;
-	border:thick dashed green;
-
+.myMenuButton{
+	width: 16%;
+	height: 60px;
 }
-
-.clearfix:after {
-display: block;
-height: 0;
-content: '.';
-visibility: hidden;
-clear: both;
+a:link:{
+	color:white;
 }
-
-#profilePic{
-width:30%;
-height: auto;
-border:thick dashed blue;
-
+a:visited{
+	color:white;
 }
-
-#title{
-	border:thick dashed green;
-	float:left;
-	width:45%;
+.container{
+	background-color: #8bc1db;
+	padding:1%;
 }
