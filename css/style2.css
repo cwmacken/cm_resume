@@ -3,15 +3,14 @@
 
 }
 
-.menuBox{
-	width: auto;
-	height: auto;
-}
-
 
 .menu{color:#231F20;
 	font-weight: bold;
 	text-decoration: none;
+	list-style-type: none;
+	position: relative;
+	z-index: 0;
+
 	}
 
 .menu:hover{
@@ -20,6 +19,15 @@
 	text-align: right;
 	text-decoration: none;
 	padding-right: 2px;
+	position: relative;
+	z-index: 0;
+}
+.mobileMenu{
+	display: none;
+}
+
+a{
+	color:inherit;
 }
 a:hover{text-decoration: none;}
 
@@ -36,6 +44,27 @@ a:hover{text-decoration: none;}
 .hidden{
 	width:0%;
 }
+.span9{
+	margin-top: 5%;
+
+}
+.dropDad{
+	margin-left: 0px;
+
+}
+.drop{
+	display: none;
+	position: relative;
+}
+
+.dropDad:hover .drop{
+	display: block;
+
+}
+
+.drop:hover{
+	display: block;
+}
 
 @media screen and (max-width: 980px){
 	.container{
@@ -51,8 +80,18 @@ a:hover{text-decoration: none;}
 		width:40%
 	}
 	.img-circle{
-		width:19%;
+		width:0%;
 	}
+
+	.primary{
+		width:29%;
+	}
+
+	.span9{
+	margin-top: 5%;
+	width:80%;
+
+}
 }
 @media screen and (max-width: 760px){
 	.container{
@@ -62,16 +101,59 @@ a:hover{text-decoration: none;}
 		width:13%;
 	}
 	.span6{
-		width:40%;
+		width:91%;
 	}
 	.span3,{
-		width:40%
+		width:0%
 	}
 	.img-circle{
 		width:0%;
 	}
 	.hidden{
-		width:39%;}
+		width:50%;}
+		.menu:hover{
+	background-color: #231F20;
+	color:#F26531;
+	text-decoration: none;
+	padding-right: 2px;
+	}
+	
+}
+@media screen and (max-width: 720px){
+	.container{
+		width:100%;
+	}
+	.span2{
+		width:13%;
+	}
+	.span6{
+		width:91%;
+	}
+	.span3,{
+		width:0%
+	}
+	.img-circle{
+		width:0%;
+	}
+	.hidden{
+		width:50%;}
+	
+	.mobileMenu{
+	display: block;
+	}
+
+
+	.menu:hover{
+	background-color: #231F20;
+	color:#F26531;
+	text-decoration: none;
+	width: 50%
+	}
+
+	.fullSiteMenu{
+		display: none;
+	}
+	
 }
 
 
